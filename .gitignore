@@ -1,0 +1,37 @@
+# Python virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Environment variables file
+.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules (if you have React or Node frontend)
+node_modules/
+
+# Build/dist folders
+dist/
+build/
+
+# Editor folders and files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
