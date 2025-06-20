@@ -19,6 +19,15 @@ AI Coaching Report: Delivers personalized feedback and next steps using AI-drive
 
 Responsive UI: Built with React, Tailwind CSS, and Lucide icons for a modern, user-friendly experience.
 
+**Agents**
+Conversation Manager: Validates inputs (job role, salary, companies) and manages conversation history.
+Aspiration Parser: Extracts aspirations (CTC, companies, role) using ReAct pattern.
+Profile Evaluator: Scores user profile (coding, experience, projects) from input and resumes (PDF/DOCX).
+Market Benchmarking: Retrieves market data (salary, skills) via RAG with FAISS.
+Reality Score: Calculates gap between aspirations and profile against market benchmarks.
+Delta Reducer: Generates 30-day micro-OKRs to address gaps.
+Self-Awareness Coach: Produces a final coaching report with feedback and next steps.
+
 **Technologies Used**
 
 **Backend:**
