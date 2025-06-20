@@ -195,3 +195,5 @@ Place the RAG_Dataset.pdf file in the specified RAG_DATASET_PATH or update the p
 [Frontend: RenderEnhancedResult]
 
 
+
+Project Code Architecture Flow:- link - [ https://drive.google.com/drive/folders/1PYKTtTJoc1cx9xLtjKEiYHbbwWjCC3Sr?usp=sharing ]
