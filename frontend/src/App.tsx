@@ -1,20 +1,17 @@
-import { useEffect, useState } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from '../../frontend/src/Pages/home';
+import About from '../../frontend/src/Pages/about';
 
 function App() {
-  const [message, setMessage] = useState('');
-
-  useEffect(() => {
-    fetch('http://127.0.0.1:8000/api/test/')
-      .then(response => response.json())
-      .then(data => setMessage(data.message))
-      .catch(error => console.error('Error:', error));
-  }, []);
-
   return (
-    <div className="p-6">
-      <h1 className="text-2xl font-bold mb-4 text-green-300">Backend Response:</h1>
-      <p className="text-lg">{message}</p>
-    </div>
+    <Router>
+      <div className="min-h-screen bg-gray-100">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
